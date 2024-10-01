@@ -153,19 +153,133 @@ main {
     width: 500px;
 }
 
-.meio{
-    display: flex;
-justify-content: center;
+.container{
+display: flex;
+
 background-color: #F6F6F6;
+width: 100%; 
+align-items: center; 
 }
 
-.meio img{
-     width: 350px;
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+}
+
+.box {
+    width: 30%;             
+    padding: 20px;         
+  
+}
+
+.container img{
+    margin-top: 60px;
+    width: 350px;
     height: 250px;
     border: 1px solid #23282d41;
-    border-radius: 6px;
+    border-radius: 4px;
+}
+.container h2{
+    padding: 15px 0px;
+}
+.container p{
+    line-height: 25px;
+    width: 350px;
+    font-size: 16px;
 }
 
-.meio p{
-    width: 350px;
+.veja{
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.conteudo{
+    padding: 50px 70px 0px 0px;
+}
+
+.veja h1{
+    font-family: var(--fonte1);
+    font-size: 36px;
+}
+
+.veja p{
+    width: 500px;
+    text-align: justify;
+    padding: 20px 0px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.veja button{
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #3858E9;
+    color: white;
+    border: none;
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.veja img{
+    width: 550px;
+    border: 1px solid #23282d41;
+    border-radius: 4px;
+    margin-bottom: 80px;
+}
+
+.middle{
+    background-color: #1E1E1E;
+}
+
+.middle h1{
+    padding-top: 50px;
+    font-family: var(--fonte1);
+    color: white;
+    font-size: 50px;
+}
+
+.middle p{
+    margin: 10px 0px;
+    font-family: var(--fonte2);
+    line-height: 25px;
+    font-size: 16px;
+    color: white;
+    width: 700px;
+}
+
+.middle-img{
+    margin: 50px 0px;
+    display: flex;
+   height: 30px;
+   justify-content: space-around;
+}
+
+.middle button{
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #3858E9;
+    color: white;
+    border: none;
+    margin: 50px 0px;
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.carrossel img{
+    margin-bottom: 20px;
+    
 }
