@@ -48,7 +48,7 @@ li {
     padding: 38px 20px;
 }
 
-a:hover {
+.menu a:hover {
     color: #00769D;
     background-color: #EBEBEB;
 }
@@ -146,7 +146,7 @@ main {
 
 .pt-br{
     background-color: #EBEBEB;
-    padding: 10px 100vh;
+    padding: 10px 700px;
 }
 
 .pt-br>p{
@@ -298,10 +298,11 @@ justify-content: space-between;
 
 .carrossel img {
     margin-bottom: 20px;
+    
 }
 
 .comunidade{
-    background-color: #F6F6F6;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -335,7 +336,7 @@ justify-content: space-between;
 }
 
 .comunidade-links-section{
-    background-color: #F6F6F6;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -362,4 +363,118 @@ justify-content: space-between;
 
 .void{
    width: 650px;
+}
+
+.end{
+    background-color: #F6F6F6;
+    padding: 80px;   
+}
+
+.end-content{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 1150px;
+margin: auto;
+}
+
+.end-content a {
+    font-size: 16px;
+  width: 100px;
+ 
+   
+}
+
+.end h1{
+    font-family: var(--fonte1);
+    font-size: 36px;
+    width: 500px;
+}
+
+.end-links a{
+    text-decoration: none;
+    color: #1E1E1E;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.end-links ul{
+    justify-content: space-between;
+    width: 1160px;
+    margin: auto;
+    padding: 50px 0px 10px;
+}
+
+.li-links a {
+    
+    font-size: 14px;
+    font-weight: normal;
+    color: blue;
+}
+
+.li-links a:hover{
+    text-decoration: underline;
+}
+
+.li-links p {
+    padding-top: 20px;
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+background-color: #23282D;
+color: white;
+padding: 80px;
+}
+
+.final h1{
+    font-size: 120px;
+    font-weight: normal;
+    width: 520px;
+    padding-bottom: 40px;
+}
+
+.final p {
+    font-size: 16px;
+    line-height: 25px;
+    width: 520px;
+}
+
+.final-void{
+width: 610px;
+}
+
+footer{
+    background-color: #23282D;
+    padding: 69px 80px 58px;
+    align-items: center;
+}
+
+footer ul{
+    justify-content: space-around;
+    width: 1300px;
+    margin: auto;
+}
+
+footer li{
+    width: 150px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    width: 150px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer img{
+    padding-top: 80px;
+    display: flex;
+    margin: auto;
 }
