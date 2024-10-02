@@ -155,7 +155,6 @@ main {
 
 .container{
 display: flex;
-
 background-color: #F6F6F6;
 width: 100%; 
 align-items: center; 
@@ -239,17 +238,29 @@ align-items: center;
 
 .middle{
     background-color: #1E1E1E;
+    width: 100%; 
+    align-items: center; 
+    justify-content: space-between;
 }
 
-.middle h1{
+.middle-content{
+    width: 1120px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.middle h1 {
     padding-top: 50px;
     font-family: var(--fonte1);
     color: white;
     font-size: 50px;
+    
 }
 
-.middle p{
-    margin: 10px 0px;
+.middle p {
+    margin: 10px 0;
     font-family: var(--fonte2);
     line-height: 25px;
     font-size: 16px;
@@ -257,29 +268,98 @@ align-items: center;
     width: 700px;
 }
 
-.middle-img{
-    margin: 50px 0px;
+.middle-img {
     display: flex;
-   height: 30px;
-   justify-content: space-around;
+    height: 30px;
+    width: 1120px;
+    padding: 20px 0px 0px;
+justify-content: space-between;
+    margin: auto;
 }
 
-.middle button{
+.middle-button{
+    width: 1120px;
+    margin: auto;
+}
+
+.middle button {
     font-weight: bold;
     font-size: 16px;
     background-color: #3858E9;
     color: white;
     border: none;
-    margin: 50px 0px;
+    margin: 50px 0;
     padding: 25px;
-    text-align: center;
     cursor: pointer;
     display: flex;
     align-items: center;
     border-radius: 4px;
 }
 
-.carrossel img{
+.carrossel img {
     margin-bottom: 20px;
-    
+}
+
+.comunidade{
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.comunidade-wordpress{
+    padding: 50px 70px 0px 0px;
+}
+
+.comunidade h1{
+    font-family: var(--fonte1);
+    font-size: 36px;
+}
+
+.comunidade p{
+    width: 500px;
+    text-align: justify;
+    padding: 20px 0px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.comunidade a{
+    font-size: 16px;
+}
+
+
+.comunidade img{
+    width: 550px;
+}
+
+.comunidade-links-section{
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    line-height: 25px
+}
+
+.comunidade-links{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 500px;
+}
+
+.comunidade-links a{
+    padding: 10px 0px;
+    font-size: 16px;
+}
+
+.comunidade-links p{
+    padding: 10px 0px;
+    font-size: 16px;
+}
+
+.void{
+   width: 650px;
 }
