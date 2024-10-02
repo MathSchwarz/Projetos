@@ -229,6 +229,10 @@ align-items: center;
     border-radius: 4px;
 }
 
+.veja button:hover{
+background-color: #213FD4;
+}
+
 .veja img{
     width: 550px;
     border: 1px solid #23282d41;
@@ -294,6 +298,10 @@ justify-content: space-between;
     display: flex;
     align-items: center;
     border-radius: 4px;
+}
+
+.carrossel{
+    overflow: hidden; /*Usada para esconder o que está ultrapassando o limite da visualização*/
 }
 
 .carrossel img {
